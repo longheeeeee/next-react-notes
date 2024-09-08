@@ -7,7 +7,7 @@ import { Suspense } from 'react'
 import NoteListSkeleton from './NoteListSkeleton'
 import SidebarSearchField from './SideBarSearchField'
 import { useTranslation } from 'app/i18n'
-import SidebarImport from '@/components/SidebarImport';
+import SidebarImport from '@/components/SideBarImport';
 
 export default async function SideBar({lng}) {
   const { t } = await useTranslation(lng)
